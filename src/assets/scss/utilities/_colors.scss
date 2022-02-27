@@ -1,0 +1,71 @@
+/*-----Descriptive Color Variables-----*/
+$white: #fff;
+$black: #000;
+$serene-midnight: #0d0d0d;
+$relaxed-silver: #b8bcbf;
+$grey: #878787;
+$tire-wheel: #2f2f2f;
+$silver-surfer: #dbdbdb;
+$deep-koamaru: #111e6c;
+$calm-blue: #024873;
+$sophisticated-teal: #025e73;
+$sunflower: #ffbf00;
+$bright-sky: #9de5ff;
+$the-hulk: #3b7a57;
+$algae-green: #93dfb8;
+$amethyst-smoke: #a397b4;
+$barney: #714693;
+$bone: #d4c4a8;
+$almond: #eed9c4;
+$grey-poupon: #af8f2c;
+$apple-blossom: #af4d43;
+$apricot: #eb9373;
+$burnt-orange: #da6304;
+$bean: #3d0c02;
+$bubblegum: #eec1be;
+
+/*-----Project Color Variables-----*/
+$very-dark-blue: hsl(233, 47%, 7%); // main bg color
+$dark-desatured-blue: hsl(244, 38%, 16%); // card bg color
+$soft-violet: hsl(277, 64%, 61%); // accent color
+$white: hsl(0, 0%, 100%);
+
+/*-----Functional Color Variables-----*/
+$color-main: $very-dark-blue;
+$color-main-transparent: rgba($color-main, 0.5);
+$color-main-light: lighten($color-main, 3%);
+$color-main-lightest: lighten($color-main, 50%);
+$color-main-dark: darken($color-main, 15%);
+$color-main-darkest: darken($color-main, 25%);
+$color-secondary: $dark-desatured-blue;
+$color-accent: $soft-violet;
+$color-accent-light: lighten($color-accent, 35%);
+$light-white: ligthen($white, 0.75);
+$slight-white: lighten($white, 0.6);
+
+//background colors
+$color-bg: $color-main;
+$color-bg-dark: darken($color-bg, 20%);
+$color-bg-darkest: darken($color-bg, 40%);
+$color-bg-light: lighten($silver-surfer, 10%);
+$color-shadow: rgba($black, 0.5);
+$color-bg-footer: $serene-midnight;
+$color-bg-header: $serene-midnight;
+
+//Link colors
+$color-link-default: $white;
+$color-link-active: $silver-surfer;
+$color-link-hover: $sophisticated-teal;
+$color-link-visited: $silver-surfer;
+
+//Border Colors
+$color-border-light: $color-accent;
+$color-border-dark: $color-main;
+
+//Headings & Paragraph Colors
+$color-text-light: $white;
+$color-text-base: $grey;
+$color-text-dark: $tire-wheel;
+
+//Button Colors
+$color-link-button-default: $color-main;

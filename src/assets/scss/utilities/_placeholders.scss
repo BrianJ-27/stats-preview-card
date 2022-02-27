@@ -1,0 +1,35 @@
+// **************************************
+// Placeholders
+// **************************************
+@use "./variables" as v;
+@use "./mixins" as *;
+@use "./colors" as c;
+
+%nav-link {
+  text-decoration: none;
+}
+
+%ctr-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+%text-modules {
+  letter-spacing: 1px;
+  word-spacing: 0.5px;
+}
+
+%btn-properties {
+  outline: none;
+  border: 3px solid c.$color-main;
+  border-radius: 5px;
+  color: c.$white;
+  letter-spacing: 1px;
+  background: c.$color-main;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600;
+  padding: 0.8em;
+}

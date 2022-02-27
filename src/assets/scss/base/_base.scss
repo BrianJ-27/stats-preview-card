@@ -1,0 +1,42 @@
+// **************************************
+// BASE STYLES
+// **************************************
+
+@use "../utilities/variables" as v;
+@use "../utilities/colors" as c;
+* {
+  box-sizing: border-box;
+  // background: #000 !important;
+  // color: #0f0 !important;
+  // outline: solid #f00 1px !important;
+}
+
+body {
+  font-family: v.$font-stack-montserrat;
+  line-height: 1;
+  font-size: 1rem;
+}
+
+p {
+  color: c.$color-text-dark;
+}
+
+a {
+  display: inline-block;
+  padding: 0.6em;
+}
+
+footer {
+  height: v.$footer-height;
+  background: c.$color-bg-darkest;
+  color: c.$color-text-light;
+}
+
+/*-----HEADINGS------*/
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: v.$font-stack-bangers;
+}
