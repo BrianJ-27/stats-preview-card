@@ -1,13 +1,24 @@
 // **************************************
 // CARD STYLES
 // **************************************
-@use "../utilities/mixins" as *;
+@use "../utilities" as *;
+
+.card {
+  background: $color-secondary;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 350px;
+  @include mq("md") {
+    max-width: 1050px;
+    width: 100%;
+  }
+}
 
 .card__body {
   width: 80%;
   margin: 0 auto;
   @include mq("md") {
-    padding: 3rem;
+    padding: 1.5rem 6rem 3rem 3rem;
   }
 }
 
