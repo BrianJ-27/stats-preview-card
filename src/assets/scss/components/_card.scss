@@ -1,0 +1,19 @@
+// **************************************
+// CARD STYLES
+// **************************************
+@use "../utilities/mixins" as *;
+
+.card__body {
+  width: 80%;
+  margin: 0 auto;
+  @include mq("md") {
+    padding: 3rem;
+  }
+}
+
+.card__header,
+.card__body {
+  @include mq("md") {
+    width: 50%;
+  }
+}

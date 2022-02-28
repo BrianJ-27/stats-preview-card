@@ -1,0 +1,18 @@
+// **************************************
+// IMAGE STYLES
+// **************************************
+@use "../utilities" as *;
+
+// Purple overlay color
+.img__card {
+  filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-130deg)
+    saturate(600%) contrast(0.8);
+  background-image: url(../../images/image-header-mobile.jpg);
+  height: 200px;
+  background-size: cover;
+  width: 100%;
+  @include mq("md") {
+    background-image: url(../../images/image-header-desktop.jpg);
+    height: 100%;
+  }
+}

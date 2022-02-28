@@ -25,47 +25,17 @@ $bean: #3d0c02;
 $bubblegum: #eec1be;
 
 /*-----Project Color Variables-----*/
-$very-dark-blue: hsl(233, 47%, 7%); // main bg color
-$dark-desatured-blue: hsl(244, 38%, 16%); // card bg color
-$soft-violet: hsl(277, 64%, 61%); // accent color
+$very-dark-blue: hsl(233, 47%, 7%);
+$dark-desatured-blue: hsl(244, 38%, 16%);
+$soft-violet: hsl(277, 64%, 61%);
 $white: hsl(0, 0%, 100%);
 
 /*-----Functional Color Variables-----*/
-$color-main: $very-dark-blue;
-$color-main-transparent: rgba($color-main, 0.5);
-$color-main-light: lighten($color-main, 3%);
-$color-main-lightest: lighten($color-main, 50%);
-$color-main-dark: darken($color-main, 15%);
-$color-main-darkest: darken($color-main, 25%);
-$color-secondary: $dark-desatured-blue;
-$color-accent: $soft-violet;
-$color-accent-light: lighten($color-accent, 35%);
-$light-white: ligthen($white, 0.75);
-$slight-white: lighten($white, 0.6);
-
-//background colors
-$color-bg: $color-main;
-$color-bg-dark: darken($color-bg, 20%);
-$color-bg-darkest: darken($color-bg, 40%);
-$color-bg-light: lighten($silver-surfer, 10%);
-$color-shadow: rgba($black, 0.5);
-$color-bg-footer: $serene-midnight;
-$color-bg-header: $serene-midnight;
-
-//Link colors
-$color-link-default: $white;
-$color-link-active: $silver-surfer;
-$color-link-hover: $sophisticated-teal;
-$color-link-visited: $silver-surfer;
-
-//Border Colors
-$color-border-light: $color-accent;
-$color-border-dark: $color-main;
+$color-main: $very-dark-blue; // main bg color
+$color-secondary: $dark-desatured-blue; // card bg color
+$color-accent: $soft-violet; // accent color
 
 //Headings & Paragraph Colors
-$color-text-light: $white;
-$color-text-base: $grey;
-$color-text-dark: $tire-wheel;
-
-//Button Colors
-$color-link-button-default: $color-main;
+$color-text-base: $white; //main heading, stats
+$color-text-lighter: rgba($white, 0.75); // main paragraph
+$color-text-lightest: rgba($white, 0.6); // stat headings

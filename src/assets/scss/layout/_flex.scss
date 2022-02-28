@@ -1,0 +1,14 @@
+// **************************************
+// FLEX STYLES
+// **************************************
+
+@use "../utilities" as *;
+.flex__container {
+  @include flex_me($dir: column);
+  @include mq("md") {
+    flex-direction: row-reverse;
+    &--space-between {
+      @include flex_me($just: space-between);
+    }
+  }
+}
